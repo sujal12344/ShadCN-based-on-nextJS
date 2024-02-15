@@ -1,6 +1,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+/* @tailwind variants; */
+
+html, body, :root {
+  height: 100vh;
+}
 
 :root {
   --foreground-rgb: 0, 0, 0;
